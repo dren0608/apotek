@@ -1,0 +1,32 @@
+ERROR - 2024-12-02 18:49:40 --> Unknown column 'tanggal' in 'field list'
+ERROR - 2024-12-02 18:50:47 --> Unknown column 'tanggal' in 'field list'
+ERROR - 2024-12-02 19:02:57 --> Unknown column 'tanggal' in 'field list'
+CRITICAL - 2024-12-02 19:07:17 --> syntax error, unexpected '||' (T_BOOLEAN_OR)
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\app\Controllers\Home.php(60): view('menu')
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->barang()
+#4 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\darre\\...')
+#8 {main}
+CRITICAL - 2024-12-02 19:09:11 --> syntax error, unexpected end of file
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\app\Controllers\Home.php(60): view('menu')
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->barang()
+#4 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\darre\\...')
+#8 {main}
+ERROR - 2024-12-02 19:17:12 --> Table 'apotek.beli' doesn't exist
+CRITICAL - 2024-12-02 19:17:12 --> Call to a member function getResult() on bool
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\app\Controllers\Home.php(570): App\Models\M_apotek->tampil('beli', 'id_barang')
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->beli()
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\darre\\...')
+#6 {main}

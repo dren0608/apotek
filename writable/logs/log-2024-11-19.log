@@ -1,0 +1,5 @@
+ERROR - 2024-11-19 12:03:46 --> Unknown column 'tanggal' in 'field list'
+ERROR - 2024-11-19 12:50:18 --> Unknown column 'tanggal' in 'field list'
+ERROR - 2024-11-19 18:52:23 --> Unknown column 'tanggal' in 'field list'
+ERROR - 2024-11-19 18:53:24 --> Unknown column 'tanggal' in 'field list'
+ERROR - 2024-11-19 19:17:06 --> Unknown column 'id_user' in 'field list'

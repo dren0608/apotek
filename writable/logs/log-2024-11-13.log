@@ -1,0 +1,41 @@
+CRITICAL - 2024-11-13 01:48:59 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\spark(45): require('C:\\Users\\darre\\...')
+#4 {main}
+CRITICAL - 2024-11-13 18:42:35 --> Class 'App\Controllers\Model1' not found
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->barang()
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\darre\\...')
+#5 {main}
+CRITICAL - 2024-11-13 18:47:44 --> Too few arguments to function App\Controllers\Home::hapus_br(), 0 passed in C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->hapus_br()
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\darre\\...')
+#5 {main}
+CRITICAL - 2024-11-13 18:48:34 --> Too few arguments to function App\Controllers\Home::hapus_barang(), 0 passed in C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->hapus_barang()
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\darre\\...')
+#5 {main}
+CRITICAL - 2024-11-13 18:48:59 --> Too few arguments to function App\Controllers\Home::hapus_barang(), 0 passed in C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->hapus_barang()
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\darre\\...')
+#5 {main}
+CRITICAL - 2024-11-13 18:49:02 --> Too few arguments to function App\Controllers\Home::hapus_barang(), 0 passed in C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->hapus_barang()
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\darre\\...')
+#5 {main}

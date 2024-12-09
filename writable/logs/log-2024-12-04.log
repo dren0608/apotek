@@ -1,0 +1,89 @@
+CRITICAL - 2024-12-04 00:03:38 --> syntax error, unexpected end of file
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\app\Controllers\Home.php(47): view('menu')
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\darre\\...')
+#8 {main}
+ERROR - 2024-12-04 00:04:19 --> Table 'apotek.list_barang' doesn't exist
+CRITICAL - 2024-12-04 00:04:19 --> Call to a member function getResult() on bool
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\app\Controllers\Home.php(580): App\Models\M_apotek->tampil('list_barang', 'id_barang')
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->lrg()
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\darre\\...')
+#6 {main}
+ERROR - 2024-12-04 00:06:32 --> Table 'apotek.list_barang' doesn't exist
+CRITICAL - 2024-12-04 00:06:32 --> Call to a member function getResult() on bool
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\app\Controllers\Home.php(570): App\Models\M_apotek->tampil('list_barang', 'id_barang')
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->lrg()
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\darre\\...')
+#6 {main}
+ERROR - 2024-12-04 00:07:31 --> Table 'apotek.list_barang' doesn't exist
+CRITICAL - 2024-12-04 00:07:31 --> Call to a member function getResult() on bool
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\app\Controllers\Home.php(570): App\Models\M_apotek->tampil('list_barang', 'id_barang')
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->lrg()
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\darre\\...')
+#6 {main}
+CRITICAL - 2024-12-04 00:07:48 --> syntax error, unexpected '}', expecting ';' or '{'
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/lrg')
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/lrg')
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\darre\\...')
+#6 {main}
+ERROR - 2024-12-04 00:08:07 --> Table 'apotek.list_barang' doesn't exist
+CRITICAL - 2024-12-04 00:08:07 --> Call to a member function getResult() on bool
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\app\Controllers\Home.php(570): App\Models\M_apotek->tampil('list_barang', 'id_barang')
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->lrg()
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\darre\\...')
+#6 {main}
+CRITICAL - 2024-12-04 00:08:31 --> Argument 2 passed to view() must be of the type array, null given, called in C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\app\Controllers\Home.php on line 573
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\app\Controllers\Home.php(573): view('list_barang', NULL)
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->lrg()
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\darre\\...')
+#6 {main}
+CRITICAL - 2024-12-04 00:42:27 --> Invalid file: input_list.php
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('input_list.php')
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('input_list', Array, true)
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\app\Controllers\Home.php(583): view('input_list', Array)
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->inputlist()
+#4 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\darre\\...')
+#8 {main}
+CRITICAL - 2024-12-04 01:01:03 --> Too few arguments to function App\Controllers\Home::inputlist(), 0 passed in C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->inputlist()
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\darre\\...')
+#5 {main}
+CRITICAL - 2024-12-04 01:01:13 --> Too few arguments to function App\Controllers\Home::inputlist(), 0 passed in C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->inputlist()
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\darre\\...')
+#5 {main}
+ERROR - 2024-12-04 01:09:23 --> Unknown column 'jenis_barang' in 'field list'
+ERROR - 2024-12-04 01:10:58 --> Unknown column 'jenis_barang' in 'field list'
+ERROR - 2024-12-04 01:11:51 --> Unknown column 'jenis_barang' in 'field list'

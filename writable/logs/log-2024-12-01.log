@@ -1,0 +1,79 @@
+CRITICAL - 2024-12-01 19:09:21 --> Invalid file: menu .php
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu .php')
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('menu ', Array, true)
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\app\Controllers\Home.php(47): view('menu ')
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\darre\\...')
+#8 {main}
+CRITICAL - 2024-12-01 19:09:57 --> Invalid file: menu .php
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu .php')
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('menu ', Array, true)
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\app\Controllers\Home.php(47): view('menu ')
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\darre\\...')
+#8 {main}
+ERROR - 2024-12-01 19:19:28 --> Unknown column 'id_user' in 'field list'
+CRITICAL - 2024-12-01 19:25:00 --> syntax error, unexpected '}', expecting ';'
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/transaksi')
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/transaksi')
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\darre\\...')
+#6 {main}
+CRITICAL - 2024-12-01 19:25:33 --> syntax error, unexpected '}', expecting ';'
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/transaksi')
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/transaksi')
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\darre\\...')
+#6 {main}
+CRITICAL - 2024-12-01 19:26:15 --> syntax error, unexpected '}', expecting ';'
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/transaksi')
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/transaksi')
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\darre\\...')
+#6 {main}
+CRITICAL - 2024-12-01 19:27:18 --> syntax error, unexpected '}', expecting ';'
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/transaksi')
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/transaksi')
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\darre\\...')
+#6 {main}
+CRITICAL - 2024-12-01 19:28:11 --> syntax error, unexpected '}', expecting ';'
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/transaksi')
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/transaksi')
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\darre\\...')
+#6 {main}
+CRITICAL - 2024-12-01 19:30:37 --> syntax error, unexpected '}', expecting ';'
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/transaksi')
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/transaksi')
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\darre\\...')
+#6 {main}
+CRITICAL - 2024-12-01 19:32:01 --> syntax error, unexpected '}', expecting ';'
+#0 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/transaksi')
+#1 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/transaksi')
+#2 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\darre\Downloads\apotek\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\darre\\...')
+#6 {main}
+ERROR - 2024-12-01 19:47:14 --> Unknown column 'id_user' in 'field list'
+ERROR - 2024-12-01 19:47:34 --> Unknown column 'id_user' in 'field list'
